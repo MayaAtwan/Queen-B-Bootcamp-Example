@@ -7,18 +7,20 @@
   flex-wrap: wrap;
 }
 
-/* Mentor Card Styles */
 .card {
   background-color: #ffffff;
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 250px;
-  height: 300px;
+  width: 350px;
+  height: 500px;
   margin: 20px;
   box-sizing: border-box;
   transition: transform 0.3s ease;
-  color: rgb(80, 65, 81); 
+  color: rgb(80, 65, 81);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card:hover {
@@ -28,26 +30,26 @@
 .photo-container {
   background-color: #f8e0e0;
   padding: 10px;
-  border-radius: 10px;
-  width: 100%;
+  border-radius: 15px 15px 0 0;
   text-align: center;
 }
 
 .photo {
-  width: 80%;
-  height: auto;
-  border-radius: 10px;
+  width: 70%;
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
   margin-bottom: 10px;
 }
 
 .text-container {
-  margin-top: 15px;
+  padding: 15px;
 }
 
 .skills-container {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 15px;
+  margin-top: 1px;
 }
 
 .skill-item {

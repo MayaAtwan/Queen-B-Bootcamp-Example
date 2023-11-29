@@ -1,7 +1,22 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import userService from '../../Services/api';
 import './Register.css';
 
+function toBase64(file, callback) {
+  if (!file){
+return '';
+  }
+
+  var reader = new FileReader();
+  reader.readAsDataURL(file);
+  reader.onload = function () {
+    console.log('done converting')
+    callback(reader.result);
+  };
+  reader.onerror = function (error) {
+    console.log('Error: ', error);
+  };
+}
 const Register = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -11,12 +26,16 @@ const Register = () => {
   const [linkedin, setLinkedin] = useState('');
   const [phone, setPhone] = useState('');
   const [photo, setPhoto] = useState(null);
+  const [photo64, setPhoto64] = useState('');
   const [biography, setBiography] = useState('');
   const [registrationMessage, setRegistrationMessage] = useState('');
 
+  useEffect(() => {
+    toBase64(photo, setPhoto64);
+  }, [photo])
+
   const handleSubmit = async (e) => {
     e.preventDefault();
-
     try {
       const userData = {
         firstname,
@@ -26,10 +45,10 @@ const Register = () => {
         skills: skills.split(',').map((skill) => skill.trim()),
         linkedin,
         phone,
-        photo,
+        photo:photo64,
         biography,
       };
-
+      console.log(userData);
       const response = await userService.registerMentor(userData);
       console.log('Registration successful:', response);
       setRegistrationMessage(
@@ -40,6 +59,18 @@ const Register = () => {
           <p>Meanwhile, go ahead and check your name in the mentor list.</p>
         </>
       );
+      //https://ca.slack-edge.com/T02B3AJ9B-U03H93E2FTQ-f8e37e9893fd-512
+      setFirstname('');
+      setLastname('');
+      setEmail('');
+      setPassword('');
+      setSkills('');
+      setLinkedin('');
+      setPhone('');
+      setBiography('');
+      setPhoto('');
+      setPhoto64('');
+
     } catch (error) {
       console.error('Error registering user:', error.message);
       setRegistrationMessage(`Error: The Email Already in use`);
