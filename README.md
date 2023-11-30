@@ -10,7 +10,7 @@ To run the client side of the project, navigate to the 'client' directory and ru
 cd client
 npm start
 
-## Features
+Features
  * Add and Delete Mentors: Manage mentors in the QueenB community.
  * Mentor List Page: View a list of all mentors.
  * Mentor Profile: Access detailed information and contact mentors.
@@ -39,3 +39,6 @@ npm start
   ##Contact
   *Email:maya.atwan.2000@gmail.com
   *Email:galb9219@gmail.com
+
+
+  ![Alt text](image.png)
