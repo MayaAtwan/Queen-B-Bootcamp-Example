@@ -5,10 +5,9 @@ Welcome to the Queen B project! This application is designed to help you manage 
 <div align="center">
   <img src="https://github.com/MayaAtwan/Queen-B-Bootcamp-Example/raw/main/client/src/images/welcome.png" alt="Welcome" width="300" style="margin-right: 20px">
   <img src="https://github.com/MayaAtwan/Queen-B-Bootcamp-Example/raw/main/client/src/images/mentorlist.png" alt="Mentor List" width="300" style="margin-right: 20px">
-  <img src="https://github.com/MayaAtwan/Queen-B-Bootcamp-Example/raw/main/client/src/images/mentorinfooo.png" alt="Mentor Info" width="300">
+  <img src="https://github.com/MayaAtwan/Queen-B-Bootcamp-Example/raw/main/client/src/images/mentorinfooo.png" alt="Mentor Info" width="300" style="margin-right: 20px">
+  <img src="https://github.com/MayaAtwan/Queen-B-Bootcamp-Example/raw/main/client/src/images/register.png" alt="Register" width="150">
 </div>
-
-![Register](https://github.com/MayaAtwan/Queen-B-Bootcamp-Example/raw/main/client/src/images/register.png)
 
 ## Getting Started
 
