@@ -2,14 +2,13 @@
 
 Welcome to the Queen B project! This application is designed to help you manage mentors in the QueenB community. You can add and delete mentors, view a list of all mentors, see detailed information about each mentor, and contact them directly.
 
-![Welcome](https://github.com/MayaAtwan/Queen-B-Bootcamp-Example/blob/main/client/src/images/welcome.png?raw=true)
+<div align="center">
+  <img src="https://github.com/MayaAtwan/Queen-B-Bootcamp-Example/raw/main/client/src/images/welcome.png" alt="Welcome" width="300" style="margin-right: 20px">
+  <img src="https://github.com/MayaAtwan/Queen-B-Bootcamp-Example/raw/main/client/src/images/mentorlist.png" alt="Mentor List" width="300" style="margin-right: 20px">
+  <img src="https://github.com/MayaAtwan/Queen-B-Bootcamp-Example/raw/main/client/src/images/mentorinfooo.png" alt="Mentor Info" width="300">
+</div>
 
-
-![Mentorlist](https://github.com/MayaAtwan/Queen-B-Bootcamp-Example/blob/main/client/src/images/mentorlist.png?raw=true)
-
-![MentorInfo](https://github.com/MayaAtwan/Queen-B-Bootcamp-Example/blob/main/client/src/images/mentorinfooo.png?raw=true)
-
-![register](https://github.com/MayaAtwan/Queen-B-Bootcamp-Example/blob/main/client/src/images/register.png?raw=true)
+![Register](https://github.com/MayaAtwan/Queen-B-Bootcamp-Example/raw/main/client/src/images/register.png)
 
 ## Getting Started
 
@@ -18,6 +17,7 @@ To run the client side of the project, navigate to the 'client' directory and ru
 ```bash
 cd client
 npm start
+
 
 Features
  * Add and Delete Mentors: Manage mentors in the QueenB community.
