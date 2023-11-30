@@ -4,6 +4,13 @@ Welcome to the Queen B project! This application is designed to help you manage 
 
 ![Welcome](https://github.com/MayaAtwan/Queen-B-Bootcamp-Example/blob/main/client/src/images/welcome.png?raw=true)
 
+
+![Mentorlist](https://github.com/MayaAtwan/Queen-B-Bootcamp-Example/blob/main/client/src/images/mentorlist.png?raw=true)
+
+![MentorInfo](https://github.com/MayaAtwan/Queen-B-Bootcamp-Example/blob/main/client/src/images/mentorinfooo.png?raw=true)
+
+![register](https://github.com/MayaAtwan/Queen-B-Bootcamp-Example/blob/main/client/src/images/register.png?raw=true)
+
 ## Getting Started
 
 To run the client side of the project, navigate to the 'client' directory and run:
