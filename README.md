@@ -2,6 +2,8 @@
 
 Welcome to the Queen B project! This application is designed to help you manage mentors in the QueenB community. You can add and delete mentors, view a list of all mentors, see detailed information about each mentor, and contact them directly.
 
+![Welcome](https://github.com/MayaAtwan/Queen-B-Bootcamp-Example/blob/main/client/src/images/welcome.png?raw=true)
+
 ## Getting Started
 
 To run the client side of the project, navigate to the 'client' directory and run:
@@ -39,7 +41,5 @@ Features
   ##Contact
   *Email:maya.atwan.2000@gmail.com
   *Email:galb9219@gmail.com
-
-![Welcome](https://github.com/MayaAtwan/Queen-B-Bootcamp-Example/blob/main/client/src/images/welcome.png?raw=true)
 
 ```
