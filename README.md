@@ -40,5 +40,5 @@ Features
   *Email:maya.atwan.2000@gmail.com
   *Email:galb9219@gmail.com
 
-![welcome](C:\GitHub\QueenB\Queen-B-Bootcamp-Example\client\src\images\welcome.png)
+![Welcome](https://github.com/MayaAtwan/Queen-B-Bootcamp-Example/raw/main/client/src/images/welcome.png)
 
