@@ -40,4 +40,3 @@ Features
   *Email:maya.atwan.2000@gmail.com
   *Email:galb9219@gmail.com
 
-<img width="798" alt="image" src="https://github.com/MayaAtwan/Queen-B-Bootcamp-Example/assets/118138952/6c24445d-db82-4c59-b4eb-716420b04c02">
